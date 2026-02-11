@@ -1,3 +1,5 @@
+import Input from "../Input/Input";
+
 function Register() {
   return (
 
@@ -13,8 +15,7 @@ function Register() {
         <label className="block font-bold text-black-700 mb-1" htmlFor="lname">Last Name</label>
         <input required placeholder="Timilsina" className="w-full mb-4 px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-rose-400" type="text" id="lname" name="lname" />
 
-        <label className="block font-bold text-black-700 mb-1" htmlFor="fname">Username</label>
-        <input required placeholder="saubhagyatimilsina" className="w-full mb-4 px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-rose-400" type="username" id="username" name="username" />
+       <Input placeholder="saubhagyatimilsina" type="username" labelName="username" />
 
         <label className="block font-bold text-black-700 mb-1" htmlFor="email">E-mail</label>
         <input required placeholder="saubhagyatimilsina@gmail.com" className="w-full mb-4 px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-rose-400" type="email" id="email" name="email" />
@@ -57,7 +58,7 @@ function Register() {
       </form>
 
     </div>
-  );
+  ); 
 }
 
 export default Register;
