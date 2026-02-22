@@ -1,3 +1,4 @@
+import Login from "./Components/Login/Login";
 import Register from "./Components/Register/Register";
 
 function App ()
@@ -5,7 +6,9 @@ function App ()
   return (
     <div>
       <Register />
-    </div>
+      <Login />
+      </div>
+      
 
   )
 
