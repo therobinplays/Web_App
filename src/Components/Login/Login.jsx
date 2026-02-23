@@ -9,6 +9,9 @@ function Login ()
                 
             <h1 className="text-2xl font-bold text-center text-rose-600 mb-6">Login</h1>
 
+            <label className="bblock font-bold text-black-700 mb-1" htmlFor="username">username</label>
+            <input required placeholder="saubhagyatimilsina" className="w-full mb-4 px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-rose-400" type="username" id="username" name="username" />
+        
             <label className="block font-bold text-black-700 mb-1" htmlFor="email">E-mail</label>
             <input required placeholder="saubhagyatimilsina@gmail.com" className="w-full mb-4 px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-rose-400" type="email" id="email" name="email" />
             

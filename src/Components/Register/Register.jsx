@@ -54,7 +54,9 @@ function Register() {
         <input required className="w-full mb-6 px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-rose-400" type="date" id="date" name="date" />
 
         <button className="w-full bg-rose-500 text-white py-2 rounded hover:bg-rose-600 transition" type="submit" > Submit </button>
-      
+
+        <Link to="">Go to About Page</Link>
+        
       </form>
 
     </div>
